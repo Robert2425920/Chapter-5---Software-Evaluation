@@ -3,6 +3,7 @@
  \usepackage{setspace}
  \usepackage{color}
  \usepackage[bottom]{footmisc}
+ \usepackage{longtable}
 
 \title{Chapter 5 - Software Evaluation}
 \author{rtipping }
@@ -51,7 +52,7 @@ Each of the tester users were asked to perform a number of tasks that had been i
 Phase Two of the application testing was conducted in a Moot Court environment. Nine test candidates were used in this phase of the testing. None of the candidates had any previous experience with any of the applications, and only limited experience using tablet technologies. The candidates had been involved in the courtroom visits, so had some understanding of the courtroom environment, courtroom processes, and behaviours. The test were conducted using a scripted scenario that required the candidates to present evidence in a mock trial. Candidates played the roles of Magistrate, Defence Council, and Prosecuting Council. No styluses, or pointing devices were used throughout this test, candidates interacted with the applications using only their fingers. The iPads used in the test were connected to a data projector via a physical cable to allow for the interface to be closely monitored throughout the test. This physical cable connection did not impede the candidates use of the iPads.
 
 \section{Results}
-\subsection{Key Somethings}
+\subsection{Requirements Analysis}
 The requirements analysis identified many critical issues with current courtroom procedures that would benefit from an IT solution. These issues can be categorised into six main areas:
  
 \begin{enumerate}
@@ -134,10 +135,11 @@ When the three applications were presented to the Australian judiciary further t
 Video presentation functionality on all of the applications was quite slow, and in some not available. One application, Exhibit A, only supported ,mov video files, RLTC Evidence did not support any video files.
 \subsubsection{Usability}
 Navigation was an issue with all of the applications. RLTC Evidence, and Trialpad presented significant difficulties for the user, users were often seen struggling to navigate to the required location. Exhibit A, while somewhat more intuitive, still required the user to learn how to navigate within the application, rater that using real world knowledge. \\
-Inconsistencies of terminology within individual applications where found. These inconsistencies often confused the user, leading to errors in not only navigation, but overall use of many functions. Terminology used within the applications was not always aligned with the nomenclature of the Au
+Inconsistencies of terminology within individual applications where found. These inconsistencies often confused the user, leading to errors in not only navigation, but overall use of many functions. Terminology used within the applications was not always aligned with the nomenclature of the Australian court environment.
 
 
-\lian secti environment.\\
+
+
 In terms of usability, document manipulation was a primary concern. Document manipulation is critical functionality for evidence presentation. While most test users managed to achieve the set tasks, the quality of the outcomes was usually not high. As previously presented, the inaccuracy of interacting with the interface using only a finger lead to these low quality outcomes.
 \subsubsection{Learnability}
 None of the tested applications were found to be very intuitive, all required learning on the part of the user.The order in which the applications were presented to the test users did not appear to effect the learnability of functionality within each application.Overall the preferred application for learnability was Exhibit A.
@@ -146,8 +148,71 @@ RLTC Evidence had the lowest level of functionality of the three applications te
 Projection of evidence was a significant issue for all of the applications. This issue is lessened with the use of later generation iPads as the later generation operating systems provide the facility for presentation rather than relying on the evidence applications to provide their own.\\
 \subsubsection{Relevance}
 The relevance of the three tested applications to the Australian judicial system was not able to be determined by these studies, further field testing will be required to make this determination.
-\subsubsection{}
-courton{Closinstrag Comments}
+\subsubsection{Comparison of Functionality}
+The following table shows a comparison of functionality between the three applications tested: %HELP!!!!!!
+\singlespace
+\begin{center}
+\begin{tabular}{|c| c|| c| c| c |} 
+\hline
+ Category & Application & TP & ExA & RLTC \\ [0.5ex] 
+
+\hline
+\multirow{Input Method} & dropbox & Yes & Yes & \\
+& iTunes & Yes&Yes&Yes \\ 
+& Web Browser & &Yes& \\
+&Email&Yes&yes&\\
+&FTP&&Yes&\\
+&Create Case&Yes&yes&\\
+\hline
+\multirow{Document Types Supported} & PDF & Yes & Yes &Yes \\
+ &DOC&Yes*&&Yes\\
+ &DOCX&Yes*&&Yes\\
+ &TXT&Yes*&&Yes\\
+ &XLS&Yes*&&Yes\\
+ &XLSX&Yes*&&Yes\\
+ &PPT&Yes*&&Yes\\
+ &PPTX&Yes*&&Yes\\
+\hline
+\multirow{Image Types Supported} & JPEG & Yes & Yes &Yes \\
+ &GIF & Yes & Yes &Yes \\
+ &PNG & Yes &  &Yes \\
+ &TIF & Yes &  &Yes \\
+\hline
+\multirow{Video Types Supported} & H.264 & Yes&& \\
+ &MPEG4&Yes&&\\
+ &M-Jpeg&Yes&&\\
+ &Mov&&&Yes\\
+\hline
+\multirow{File Organisation} & Max. exhibit size & &50M& \\
+&Separate Files&Yes&Yes&\\
+&Case Folder&&Yes&\\
+&A-Z listing&&Yes&\\
+&File Types&&Yes&\\
+&Search for File&&Yes&\\
+&All&&Yes&\\
+\hline
+\multirow{Editing Features} & Highlight  &Yes &Yes&Yes \\
+ & Underline&&Yes&\\
+ &Draw&&Yes&Yes\\
+ &Annotate&Yes&Yes&\\
+& Laser Pointer&&&
+&Magnify&&Yes&\\
+&Redact&Yes&Yes&\\
+&Clear/Redraw&&Yes&\\
+&Redo/Undo&&Yes&\\
+\hline
+\multirow{Other Interface / Navigation Tools} & Resize  & &Yes& \\
+ &Search in File&&&\\
+ &Rotate&Yes&Yes&Yes\\
+ &Whiteboard&&Yes&\\
+ &Post it notes&&Yes&\\
+ &Help&&Yes&\\
+ &Back Button&&Yes&\\
+\hline
+\end{tabular}
+\end{center}
+\doublespace
+\Section{Closing Comments}
 
 
 \end{document}

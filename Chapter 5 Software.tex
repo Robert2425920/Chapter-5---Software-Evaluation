@@ -4,6 +4,12 @@
  \usepackage{color}
  \usepackage[bottom]{footmisc}
 \usepackage{geometry}
+\usepackage[table]{xcolor}
+\usepackage{xcolor,pifont}
+\usepackage{pifont}
+\newcommand{\tick}{\ding{52}}
+\newcommand{\cross}{\ding{55}}
+
  \geometry{
  a4paper,
  total={170mm,257mm},
@@ -15,12 +21,13 @@
 
 
 \begin{document}
-
+\definecolor{lightgrey}{RGB}{200,205,207}
+\definecolor{amber}{rgb}{1.0, 0.49, 0.0}
 \maketitle
 \tableofcontents
 \section{Introduction}
 \doublespace
-Technology that is used for evidence presentation in Australian courtrooms need support all of the required legal process of the Courts. While there are many issues relating to the hardware requirements (presented in chapter
+Technology that is used for evidence presentation in Australian courtrooms needs to support all of the required legal process of the Courts. While there are many issues relating to the hardware requirements (presented in chapter
 \color{red} xxx 
 \color{black} ), the specific requirements of the software used must also be thoroughly examined. The uptake of tablet technology in society, and more specifically with the legal system is increasing.
 % Note from Clinton, not sure how to put in 
@@ -160,7 +167,7 @@ The following table shows a comparison of functionality between the three applic
 \begin{center}
 \begin{tabular}{|c| c|| c| c| c |} 
 \hline
- Category & Application & TP & ExA & RLTC \\ [0.5ex] 
+\rowcolor{lightgrey} Category & Application & TP & ExA & RLTC \\ [0.5ex] 
 
 \hline
 \multirow{Input Method} & dropbox & Yes & Yes & \\
@@ -202,7 +209,7 @@ The following table shows a comparison of functionality between the three applic
  &Draw&&Yes&Yes\\
  &Annotate&Yes&Yes&\\
 & Laser Pointer&&&
-&Magnify&&Yes&\\
+&Magnify &&Yes&\\
 &Redact&Yes&Yes&\\
 &Clear/Redraw&&Yes&\\
 &Redo/Undo&&Yes&\\
@@ -251,9 +258,184 @@ In light of the analysis of user requirements and the testing of the three evide
 \end{itemize}
 \subsection{Evidence Display}
 \begin{itemize}
-    \item 
+    \item All members of the court should be provided with an individual iPad/Tablet on which all evidence should be displayed. Providing each member with their own individual device will allow the member to manipulate and rotate the displayed evidence to their own requirements. This will eliminate the requirement for members to view a central screen, which can be physically difficult in some courtrooms. Individual viewing devices will also reduce the issue of the members having poor eye sight as it will bring the displayed evidence much closer to the member.
+    \item All display functions should always require the user conformation. This would avoid any possibility of unintentional displaying of evidence to the court.
+    \item iPads / tablets should be connected to the display devices wirelessly. This would avoid any issues where cables become accidentally detached, and would also increase user mobility.
 \end{itemize}
-\Section{Closing Comments}
+
+\subsection{Screen Size}
+\begin{itemize}
+    \item The issue of screen size, while fully addressed in chapter \color{red} 7 \color{black}, is also of importance in regards to software design. The iPad screen is only 24.6 centimetres diagonally, significantly smaller than standard desktop screens. Software interface design must take this reduced size into account. A document displayed at full width on an iPad screen is still smaller than a standard A4 printed document. While the user has the option of zooming in on displayed evidence, to view a whole document while zoomed in would require the user to be constantly scrolling left to right as well as up and down the page. Any toolbars or menus would further reduce the available work area of the screen. It is recommended that the interface be as uncluttered as possible,and  only functionality appropriate for the current page be displayed on the screen. Remove of the navigation menu that traditionally occupy the left side of the screen would also increase available work area, using collapsible menus would achieve this. An alternative and general solution would be to use a tablet with a larger work area.
+    \item Full screen viewing functionality, allowing the currently displayed evidence to occupy the full screen without any toolbars or menus visible should be included in any evidence presentation software.
+    
+\end{itemize}
+
+\section{Closing Comments}
+\color{yellow} Not sure how to structure this section, check with Supervisors.
+\color{black}
 
 
+
+\section{Application Performance Summary}
+\subsection{Not sure what to put here}
+This section shows the performance of each application across eight areas of functionality. The eight areas are:
+\begin{enumerate}
+    \item Document Handling
+    \item Viewing Tools
+    \item Editing Tools
+    \item Files
+    \item Screen
+    \item Navigation, Back, Home, Global positioning
+    \item Help Inline, Online, and Contextual
+    \item Video Presentation
+    
+    
+\end{enumerate}
+
+In the tables below the following key is used:
+\begin{itemize}
+\item[\color{green}\tick]\color{black } Positive functionality performance
+    \item [\color{amber}!!]\color{black} Needs attention for stability
+     \item [\color{red}\cross]\color{black} Critical issue that must be resolved.
+     \item For noting.
+\end{itemize}
+%need to put key to tables bullet points in here
+\subsubsection{Document Handling}
+\singlespace
+\begin{center}
+    
+
+%\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Page Turning}\\
+\hline
+Exhibit A & \begin{itemize}
+    \item To change pages on a PDF use the arrows on the side of the page - poor visibility
+\end{itemize}\\
+\hline
+TrialPad & \begin{itemize}
+    \item To change pages on a PDF use arrows at the bottom of the screen. Able to flick pages up and down
+\end{itemize}\\
+\hline
+RLTC & \begin{itemize}
+    \item To change pages of a PDF use arrows at the top of the page.This is actually what appears in the instructions, however could not get arrows to appear.
+ 
+\end{itemize}\\
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Page Navigation}\\
+\hline
+Exhibit A & \begin{itemize}
+    \item Slide bar on the side of the PDF shows where you are upto in the file.
+\end{itemize}\\
+\hline
+TrialPad & \begin{itemize}
+    \item Slide bar on the side of the PDF shows where you are upto in the file.
+\end{itemize}\\
+\hline
+RLTC & \begin{itemize}
+    \item Current page number out of total on slide informs of position in document. No slide bar.
+\end{itemize}\\
+\hline
+\end{tabular}
+\end{center}
+\subsubsection{Viewing Tools}
+\begin{center}
+    
+\end{center}
+%\definecolor{lightgrey}{RGB}{200,205,207}
+%\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Magnify}\\
+\hline
+\multirow{Exhibit A} &
+ \begin{itemize}
+    \item[\color{amber}!!]\color{black} When using Magnify the clear or undo functionality is not available. Have to go back to the Magnify Glass to reduce.
+    \item Very grainy when magnified.
+ \end{itemize}}\\
+\hline
+\multirow{TrialPad} &
+ \begin{itemize}
+    \item[\color{amber}!!]\color{black} When using Magnify you have to use the clear button to remove the magnification, the undo button does not work.
+     \item[\color{green}\tick]\color{black}Magnified image is very clear.
+ \end{itemize}}\\
+\hline
+\multirow{RLTC} &
+ \begin{itemize}
+    \item Pressing on an area of the document magnifies the area. Double tapping magnifies the page.
+\end{itemize}\\
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Rotation}\\
+\multirow{Exhibit A} &
+ \begin{itemize}
+    \item Rotation gives 4 directions from one button.
+    \item Quick to view and select.
+\end{itemize}\\
+\hline
+\multirow{TrialPad} &
+ \begin{itemize}
+    \item Able to rotate page or document.
+    \item[\color{amber}!!]\color{black} Rotation is uni-directional.
+\end{itemize}\\
+\hline
+\multirow{RLTC} &
+ \begin{itemize}
+    \item[\color{red}\cross]\color{black} Rotation is not available.
+   
+\end{itemize}\\
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Laser Pointer}\\
+\multirow{Exhibit A} &
+ \begin{itemize}
+    \item[\color{green}\tick]\color{black} Easy to use, works well.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+   
+\end{itemize}\\
+\hline
+\multirow{TrialPad} &
+ \begin{itemize}
+    \item[\color{green}\tick]\color{black} Easy to use, works well.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+   
+\end{itemize}\\
+\hline
+\multirow{RLTC} &
+ \begin{itemize}
+    \item[\color{red}\cross]\color{black} Laser pointer not available.
+\end{itemize}\\
+\hline
+\end{tabular}
+\end{center}
+\subsubsection{Editing Tools}
+\begin{center}
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Highligh}\\
+\hline
+\multirow{Exhibit A} &
+ \begin{itemize}
+    \item[\color{green}\tick]\color{black} 2 highlight modes available: Freehand and Block.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+    \item Highligh available under tools
+\end{itemize}\\
+\hline
+\multirow{TrialPad} &
+ \begin{itemize}
+    \item[\color{green}\tick]\color{black} Highlight pen is very clear and easy to use.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+    \item[\color{amber}!!]\color{black} Highligh only in block mode, no freehand.
+\end{itemize}\\
+\hline
+\multirow{RLTC} &
+ \begin{itemize}
+    \item Highlight pen is clear and easy to use.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+    \item[\color{amber}!!]\color{black} Highligh only in block mode, no freehand.
+    \item[\color{red}\cross\cross]\color{black} After tapping the highlight it was not possible to remove highlight mode. The clear works to remove what is on screen, however the highlight mode remains on. This is a major issue
+\end{itemize}\\
+\hline
+
+\end{tabular}
+\end{center}
 \end{document}

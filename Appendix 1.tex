@@ -1,0 +1,218 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+ \usepackage{setspace}
+ \usepackage{color}
+ \usepackage[bottom]{footmisc}
+\usepackage{geometry}
+\usepackage[table]{xcolor}
+\usepackage{xcolor,pifont}
+\usepackage{pifont}
+\usepackage{appendix}
+\newcommand{\tick}{\ding{52}}
+\newcommand{\cross}{\ding{55}}
+\definecolor{lightgrey}{RGB}{200,205,207}
+\definecolor{amber}{rgb}{1.0, 0.49, 0.0}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\begin{document}
+\appen
+\appendixname{Application Performance Summary}
+
+\section{Application Performance Summary}
+\subsection{Not sure what to put here}
+This section shows the performance of each application across eight areas of functionality. The eight areas are:
+\begin{enumerate}
+    \item Document Handling
+    \item Viewing Tools
+    \item Editing Tools
+    \item Files
+    \item Screen
+    \item Navigation, Back, Home, Global positioning
+    \item Help Inline, Online, and Contextual
+    \item Video Presentation
+    
+    
+\end{enumerate}
+
+In the tables below the following key is used:
+\begin{itemize}
+\item[\color{green}\tick]\color{black } Positive functionality performance
+    \item [\color{amber}!!]\color{black} Needs attention for stability
+     \item [\color{red}\cross]\color{black} Critical issue that must be resolved.
+     \item For noting.
+\end{itemize}
+%need to put key to tables bullet points in here
+\subsubsection{Document Handling}
+\singlespace
+\begin{center}
+\begin{table}[h!]
+\label{Table 1:}    
+\caption{Page Turning}
+%\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
+\centering
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Page Turning}\\
+\hline
+Exhibit A & \begin{itemize}
+    \item To change pages on a PDF use the arrows on the side of the page - poor visibility
+\end{itemize}\\
+\hline
+TrialPad & \begin{itemize}
+    \item To change pages on a PDF use arrows at the bottom of the screen. Able to flick pages up and down
+\end{itemize}\\
+\hline
+RLTC & \begin{itemize}
+    \item To change pages of a PDF use arrows at the top of the page.This is actually what appears in the instructions, however could not get arrows to appear.
+ 
+\end{itemize}\\
+\hline
+\end{tabular}
+\end{table}
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Page Navigation}\\
+\hline
+Exhibit A & \begin{itemize}
+    \item Slide bar on the side of the PDF shows where you are upto in the file.
+\end{itemize}\\
+\hline
+TrialPad & \begin{itemize}
+    \item Slide bar on the side of the PDF shows where you are upto in the file.
+\end{itemize}\\
+\hline
+RLTC & \begin{itemize}
+    \item Current page number out of total on slide informs of position in document. No slide bar.
+\end{itemize}\\
+\hline
+\end{tabular}
+\end{center}
+\subsubsection{Viewing Tools}
+\begin{center}
+    
+\end{center}
+%\definecolor{lightgrey}{RGB}{200,205,207}
+%\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Magnify}\\
+\hline
+Exhibit A &
+ \begin{itemize}
+    \item[\color{amber}!!]\color{black} When using Magnify the clear or undo functionality is not available. Have to go back to the Magnify Glass to reduce.
+    \item Very grainy when magnified.
+ \end{itemize}}\\
+\hline
+\multirow{TrialPad} &
+ \begin{itemize}
+    \item[\color{amber}!!]\color{black} When using Magnify you have to use the clear button to remove the magnification, the undo button does not work.
+     \item[\color{green}\tick]\color{black}Magnified image is very clear.
+ \end{itemize}}\\
+\hline
+\multirow{RLTC} &
+ \begin{itemize}
+    \item Pressing on an area of the document magnifies the area. Double tapping magnifies the page.
+\end{itemize}\\
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Rotation}\\
+\multirow{Exhibit A} &
+ \begin{itemize}
+    \item Rotation gives 4 directions from one button.
+    \item Quick to view and select.
+\end{itemize}\\
+\hline
+\multirow{TrialPad} &
+ \begin{itemize}
+    \item Able to rotate page or document.
+    \item[\color{amber}!!]\color{black} Rotation is uni-directional.
+\end{itemize}\\
+\hline
+\multirow{RLTC} &
+ \begin{itemize}
+    \item[\color{red}\cross]\color{black} Rotation is not available.
+   
+\end{itemize}\\
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Laser Pointer}\\
+Exhibit A  &
+ \begin{itemize}
+    \item[\color{green}\tick]\color{black} Easy to use, works well.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+   
+\end{itemize}\\
+\hline
+\multirow{TrialPad} &
+ \begin{itemize}
+    \item[\color{green}\tick]\color{black} Easy to use, works well.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+   
+\end{itemize}\\
+\hline
+\multirow{RLTC} &
+ \begin{itemize}
+    \item[\color{red}\cross]\color{black} Laser pointer not available.
+\end{itemize}\\
+\hline
+\end{tabular}
+\end{center}
+\subsubsection{Editing Tools}
+\begin{center}
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Highligh}\\
+\hline
+\multirow{Exhibit A} &
+ \begin{itemize}
+    \item[\color{green}\tick]\color{black} 2 highlight modes available: Freehand and Block.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+    \item Highligh available under tools
+\end{itemize}\\
+\hline
+\multirow{TrialPad} &
+ \begin{itemize}
+    \item[\color{green}\tick]\color{black} Highlight pen is very clear and easy to use.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+    \item[\color{amber}!!]\color{black} Highlight only in block mode, no freehand.
+\end{itemize}\\
+\hline
+\multirow{RLTC} &
+ \begin{itemize}
+    \item Highlight pen is clear and easy to use.
+    \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
+    \item[\color{amber}!!]\color{black} Highlight only in block mode, no freehand.
+    \item[\color{red}\cross\cross]\color{black} After tapping the highlight it was not possible to remove highlight mode. The clear works to remove what is on screen, however the highlight mode remains on. This is a major issue
+\end{itemize}\\
+\hline
+
+\end{tabular}
+\end{center}
+
+
+
+
+
+The table \ref{table:1} is an example of referenced \LaTeX elements.
+ 
+\begin{table}[h!]
+\caption{Table to test captions and labels}
+\centering
+
+\begin{tabular}{||c c c c||} 
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\ 
+ 2 & 7 & 78 & 5415 \\
+ 3 & 545 & 778 & 7507 \\
+ 4 & 545 & 18744 & 7560 \\
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
+\end{tabular}
+
+\label{table:1}
+\end{table}
+\end{document}

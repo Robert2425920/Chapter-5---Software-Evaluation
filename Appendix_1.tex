@@ -1,10 +1,13 @@
 
 
-\appen
-\appendixname{Application Performance Summary}
+\chapter{Application Performance Summary\label{App:PerformanceSummary}}
+
+
+
+
 
 \section{Application Performance Summary}
-\subsection{Not sure what to put here}
+\subsection{Criteria and Key}
 This section shows the performance of each application across eight areas of functionality. The eight areas are:
 \begin{enumerate}
     \item Document Handling
@@ -19,23 +22,26 @@ This section shows the performance of each application across eight areas of fun
     
 \end{enumerate}
 
-In the tables below the following key is used:
+\noindent In the tables below the following key is used:
 \begin{itemize}
-\item[\color{green}\tick]\color{black } Positive functionality performance
+	\item[\color{green}\tick]\color{black} Positive functionality performance
     \item [\color{amber}!!]\color{black} Needs attention for stability
      \item [\color{red}\cross]\color{black} Critical issue that must be resolved.
      \item For noting.
 \end{itemize}
 %need to put key to tables bullet points in here
-\subsubsection{Document Handling}
+\subsection{Document Handling}
 \singlespace
+
+
 \begin{center}
 \begin{table}[h!]
 \label{Table 1:}    
 \caption{Page Turning}
 %\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
+\small
 \centering
-\begin{tabular}{|p{2cm}|p{10cm}|}
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
 \hline
 \rowcolor{lightgrey}\multicolumn{2}{|c|}{Page Turning}\\
 \hline
@@ -53,8 +59,17 @@ RLTC & \begin{itemize}
 \end{itemize}\\
 \hline
 \end{tabular}
+
 \end{table}
-\begin{tabular}{|p{2cm}|p{10cm}|}
+\end{center}
+
+\begin{center}
+\begin{table}[h!]
+\label{Table 2:}    
+\caption{Page mavigation}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
+
 \rowcolor{lightgrey}\multicolumn{2}{|c|}{Page Navigation}\\
 \hline
 Exhibit A & \begin{itemize}
@@ -70,15 +85,24 @@ RLTC & \begin{itemize}
 \end{itemize}\\
 \hline
 \end{tabular}
+
+
+\end{table}
 \end{center}
-\subsubsection{Viewing Tools}
-\begin{center}
-    
-\end{center}
+
+
+
+\subsection{Viewing Tools}
+
 %\definecolor{lightgrey}{RGB}{200,205,207}
 %\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
 \begin{center}
-\begin{tabular}{|p{2cm}|p{10cm}|}
+\begin{table}[h!]
+
+\label{Table 3:}    
+\caption{Magnify}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
 \hline
 \rowcolor{lightgrey}\multicolumn{2}{|c|}{Magnify}\\
 \hline
@@ -88,37 +112,68 @@ Exhibit A &
     \item Very grainy when magnified.
  \end{itemize}\\
 \hline
-\multirow{TrialPad} &
+TrialPad &
  \begin{itemize}
     \item[\color{amber}!!]\color{black} When using Magnify you have to use the clear button to remove the magnification, the undo button does not work.
      \item[\color{green}\tick]\color{black}Magnified image is very clear.
  \end{itemize}\\
 \hline
-\multirow{RLTC} &
+RLTC &
  \begin{itemize}
     \item Pressing on an area of the document magnifies the area. Double tapping magnifies the page.
 \end{itemize}\\
 \hline
+\end{tabular}
+\end{table}
+\end {center}
+
+
+
+
+
+\begin{center}
+\begin{table}[h!]
+
+\label{Table 4:}    
+\caption{Rotation}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
+\hline
 \rowcolor{lightgrey}\multicolumn{2}{|c|}{Rotation}\\
-\multirow{Exhibit A} &
+\hline
+Exhibit A &
  \begin{itemize}
     \item Rotation gives 4 directions from one button.
     \item Quick to view and select.
 \end{itemize}\\
 \hline
-\multirow{TrialPad} &
+TrialPad &
  \begin{itemize}
     \item Able to rotate page or document.
     \item[\color{amber}!!]\color{black} Rotation is uni-directional.
 \end{itemize}\\
 \hline
-\multirow{RLTC} &
+RLTC &
  \begin{itemize}
     \item[\color{red}\cross]\color{black} Rotation is not available.
    
 \end{itemize}\\
 \hline
+\end{tabular}\\
+\end{table}
+
+%table: Laser pointer
+
+\begin{center}
+\begin{table}[h!]
+
+\label{Table 5:}    
+\caption{Laser Pointer}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
+\hline
 \rowcolor{lightgrey}\multicolumn{2}{|c|}{Laser Pointer}\\
+\hline
 Exhibit A  &
  \begin{itemize}
     \item[\color{green}\tick]\color{black} Easy to use, works well.
@@ -126,74 +181,186 @@ Exhibit A  &
    
 \end{itemize}\\
 \hline
-\multirow{TrialPad} &
+TrialPad &
  \begin{itemize}
     \item[\color{green}\tick]\color{black} Easy to use, works well.
     \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
    
 \end{itemize}\\
 \hline
-\multirow{RLTC} &
+RLTC &
  \begin{itemize}
     \item[\color{red}\cross]\color{black} Laser pointer not available.
 \end{itemize}\\
 \hline
 \end{tabular}
+\end{table}
 \end{center}
-\subsubsection{Editing Tools}
+
+
+
+
+\subsection{Editing Tools}
+
+
+
 \begin{center}
-\begin{tabular}{|p{2cm}|p{10cm}|}
+\begin{table}[h!]
+
+\label{Table 6:}    
+\caption{Highlight}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
 \hline
-\rowcolor{lightgrey}\multicolumn{2}{|c|}{Highligh}\\
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Highlight}\\
 \hline
-\multirow{Exhibit A} &
+Exhibit A &
  \begin{itemize}
     \item[\color{green}\tick]\color{black} 2 highlight modes available: Freehand and Block.
     \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
     \item Highligh available under tools
 \end{itemize}\\
 \hline
-\multirow{TrialPad} &
+TrialPad &
  \begin{itemize}
     \item[\color{green}\tick]\color{black} Highlight pen is very clear and easy to use.
     \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
     \item[\color{amber}!!]\color{black} Highlight only in block mode, no freehand.
 \end{itemize}\\
 \hline
-\multirow{RLTC} &
+RLTC &
  \begin{itemize}
     \item Highlight pen is clear and easy to use.
     \item[\color{amber}!!]\color{black} Tool used with finger on screen. Accuracy is an issue.
     \item[\color{amber}!!]\color{black} Highlight only in block mode, no freehand.
-    \item[\color{red}\cross\cross]\color{black} After tapping the highlight it was not possible to remove highlight mode. The clear works to remove what is on screen, however the highlight mode remains on. This is a major issue
+    \item[\color{red}\cross]\color{black} After tapping the highlight it was not possible to remove highlight mode. The clear works to remove what is on screen, however the highlight mode remains on. This is a major issue
+\end{itemize}\\
+\hline
+
+\end{tabular}\\
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}[h!]
+
+\label{Table 7:}    
+\caption{Pencil Line}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Pencil Line}\\
+\hline
+Exhibit A &
+ \begin{itemize}
+	\item 5 colored pencils with changable width.
+	\item Clean smooth but does not recognise white space for underlining.
+ \end{itemize}\\
+\hline
+TrialPad & 
+ \begin{itemize}
+	\item 4 colored pencils with changable width.
+	\item [\color{amber}!!]\color{black}Extra features available (hold down for menu), but not obvious to new users.
+	\item [\color{amber}!!]\color{black}Can not select color and width at the same time, need to close and reopen tool to do each action.
+ \end{itemize}\\
+\hline
+RLTC & 
+\begin{itemize}
+  \item [\color{amber}!!]\color{black} Not available.
 \end{itemize}\\
 \hline
 
 \end{tabular}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}[h!]
+
+\label{Table 8:}    
+\caption{Post It Notes}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Post It Notes}\\
+\hline
+Exhibit A & Could use redact in 5 colours, as redact block able to be annotated using the pencil.\\
+\hline
+TrialPad & [\color{amber}!!]\color{black} Not available.\\
+\hline
+RLTC & [\color{amber}!!]\color{black} Not available.
+\hline
+\end{tabular}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}[h!]
+
+\label{Table 9:}    
+\caption{Redact}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Redact}\\
+\hline
+Exhibit A & 
+\begin{itemize}
+	\item Five colours available.
+	\item Can be written on with freehand pencil.
+	\item Could be used for Post It notes, but would obscure part of the screen.
+\end{itemize}\\
+\hline
+TrialPad &
+\begin{itemize}
+  \item Only available black and white .
+  \item Can write over the top to make notes.
+\end{itemize}\\
+\hline
+RLTC & Not available\\
+\hline
+
+\end{tabular}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}[h!]
+
+\label{Table 10:}    
+\caption{Other Features}
+\centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Other Features}\\
+\hline
+RLTC & 
+\begin{itemize}
+  \item Press on word enables you to copy or define word.
+  \item [\color{red}\cross]\color{black} Can't work out how to paste.
+\end{itemize}\\
+\hline
+\end{tabular}
+\end{table}
 \end{center}
 
 
+\subsection{Files}
 
-
-
-The table \ref{table:1} is an example of referenced \LaTeX elements.
- 
+\begin{center}
 \begin{table}[h!]
-\caption{Table to test captions and labels}
+
+\label{Table 11:}    
+\caption{Types}
 \centering
+\begin{tabular}{|p{0.15\textwidth}|p{0.7\textwidth}|}
+\hline
+\rowcolor{lightgrey}\multicolumn{2}{|c|}{Types}\\
+\hline
+Exhibit A &
 
-\begin{tabular}{||c c c c||} 
- \hline
- Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
- \hline\hline
- 1 & 6 & 87837 & 787 \\ 
- 2 & 7 & 78 & 5415 \\
- 3 & 545 & 778 & 7507 \\
- 4 & 545 & 18744 & 7560 \\
- 5 & 88 & 788 & 6344 \\ [1ex] 
- \hline
 \end{tabular}
-
-\label{table:1}
 \end{table}
-\
+\end{center}
+
+\end{chapter}

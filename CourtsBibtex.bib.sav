@@ -1,0 +1,451 @@
+% Encoding: windows-1252
+
+@ARTICLE{BAILENSON2006,
+  author = {BAILENSON, JEREMY N. and BLASCOVICH, JIM and BEALL, ANDREW C. and
+	NOVECK, BETH},
+  title = {Courtroom Applications of Virtual Environments, Immersive Virtual
+	Environments, and Collaborative Virtual Environments},
+  journal = {Law \& Policy},
+  year = {2006},
+  volume = {28},
+  pages = {249--270},
+  number = {2},
+  abstract = {This article examines the possibilities and implications of employing
+	virtual environments (VEs), immersive virtual environments (IVEs),
+	and collaborative virtual environments (CVEs) in the courtroom. We
+	argue that the immersive and interactive reality created by these
+	tools adds significant value as a simulation of experience to enhance
+	courtroom practice. The obvious boundaries between real and virtual
+	enhance the attractiveness of these tools as technologies of rhetorical
+	persuasion that can be used to demonstrate subjective perspective,
+	strengthen or impeach the credibility of witnesses, and provide the
+	trier of fact with a better understanding of each side's perception
+	of the facts at issue. The article introduces the concepts of VEs,
+	IVEs, and CVEs, describes the manners in which these technologies
+	have been applied to settings other than the courts system, and review
+	the relevant psychological and legal literature. It discusses specific
+	applications of the technology to the court system and suggests how
+	it could improve upon current procedures. Finally, it discusses some
+	of the limitations and problems, and suggests legal reforms necessary
+	to the adoption of these technologies, specifically rules of procedure
+	that provide for all parties to be able to access, manipulate and
+	inspect any virtual environment, the trier of fact to be able to
+	interact with, rather than just accept the lawyer's rendition, and
+	rules that provide for the parties to introduce at trial an inventory
+	of all digital assets contained in the virtual environment, making
+	those that are stipulated to and those that are in controversy.},
+  doi = {10.1111/j.1467-9930.2006.00226.x},
+  issn = {1467-9930},
+  owner = {rtipping},
+  publisher = {Blackwell Publishing Ltd},
+  read = {No},
+  timestamp = {2012.03.27},
+  url = {http://dx.doi.org/10.1111/j.1467-9930.2006.00226.x}
+}
+
+@Electronic{Benetton2009,
+  author       = {Benetton, Luigi},
+  title        = {Guide to Courtroom Technology in Canada},
+  year         = {2009},
+  url          = {http://www.cba.org/cba/practicelink/solosmall_technology/courts.aspx},
+  organization = {The Canadian Bar Association},
+  month        = {September},
+  file         = {Benetton2009.pdf:Benetton2009.pdf:PDF},
+  owner        = {rtipping},
+  read         = {yes},
+  timestamp    = {2012.03.27},
+}
+
+@Electronic{Bos2004,
+  author       = {Bos, Carole D.},
+  title        = {Presenting Evidence with Courtroom Technology},
+  year         = {2004},
+  url          = {http://www.bosglazier.com/courttech.shtml},
+  organization = {Bos \& Glazier: - Trial Attorneys},
+  address      = {990 Monroe N.W. · Grand Rapids, MI · 49503 Phone: 616.458.6814 Fax: 616.459.8614},
+  file         = {C\:\\Users\\rtipping\\Documents\\Research\\Literature\\Technology in Courtrooms\\Articles\\Bos2004.pdf:C\:/Users/rtipping/Documents/Research/Literature/Technology in Courtrooms/Articles/Bos2004.pdf:PDF},
+  owner        = {rtipping},
+  read         = {No},
+  timestamp    = {2012.03.27},
+}
+
+@Article{Chandler2007,
+  author   = {Chandler, Jennifer},
+  title    = {The Autonomy of Technology: Do Courts Control Technology or Do They Just Legitimize Its Social Acceptance?.},
+  journal  = {Bulletin of Science, Technology \& Society},
+  year     = {2007},
+  volume   = {27},
+  number   = {5},
+  pages    = {339 - 348},
+  issn     = {02704676},
+  url      = {http://ezproxy.lib.swin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=26953870&site=ehost-live&scope=site},
+  abstract = {This article draws on the suggestion that modern technology is ‘autonomous’
+	in that our social control mechanisms are unable to control technology
+	and instead merely adapt society to integrate new technologies. In
+	this article, I suggest that common law judges tend systematically
+	to support the integration of novel technologies into society. For
+	example, courts sometimes require parties seeking compensation for
+	serious injuries to submit to medical technologies to which the parties
+	object for genuine reasons of fear or moral objection. Where a novel
+	technology alters the environment in some way, courts sometimes legitimize
+	that alteration by refusing to recognize harm and instead characterizing
+	avoidance of the technology as self-imposed harm. The examples selected
+	in this article were chosen to support the hypothesis in one way
+	or another and future work will aim to look for counter examples
+	and to conduct a more complete assessment of the hypothesis. [ABSTRACT
+	FROM AUTHOR]},
+  file     = {Chandler2007.pdf:Chandler2007.pdf:PDF},
+  keywords = {TECHNOLOGY & law, TECHNOLOGY & state, TECHNOLOGY -- Social aspects, SOCIAL control, TECHNOLOGY assessment, TECHNOLOGICAL innovations, TECHNOLOGICAL revolution, TECHNOLOGY & civilization, MEDICAL technology, autonomy of technology, judges and courts, law, social control of technology},
+}
+
+@Article{Dunn2006,
+  author    = {Dunn, Meghan A. and Salovey, Peter and Feigenson, Neal},
+  title     = {The Jury Persuaded (and Not): Computer Animation in the Courtroom.},
+  journal   = {Law \& Policy},
+  year      = {2006},
+  volume    = {28},
+  number    = {2},
+  pages     = {228 - 248},
+  issn      = {02658240},
+  url       = {http://ezproxy.lib.swin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=19977628&site=ehost-live&scope=site},
+  abstract  = {In two experiments, we examined the persuasiveness of computer animation
+	on juror decision making by comparing animation to diagrams in two
+	mock trials—a plane crash case and a car accident case. The persuasiveness
+	of the animation on verdicts was dependent on the case; in the plane
+	crash case, participants rendered verdicts in favor of the side presenting
+	the animation. In the car accident case, the animation had no effect
+	on verdicts. The role of familiarity with the depicted scenario is
+	discussed as a possible explanation for the differing impact of animation.
+	Additionally, jurors’ expectations about the persuasiveness of animations
+	were discrepant with the animations’ actual influence on jurors’
+	verdicts. [ABSTRACT FROM AUTHOR]},
+  file      = {Dunn2006.pdf:Dunn2006.pdf:PDF},
+  keywords  = {COMPUTER-generated imagery, VIRTUAL reality, COMPUTER simulation, COMPUTER graphics, COURTS -- Officials & employees, JURORS, JURY},
+  owner     = {rtipping},
+  read      = {No},
+  timestamp = {2012.03.27},
+}
+
+@Book{Federal_Judicial_Ctr2001,
+  author    = {Federal_Judicial_Ctr},
+  title     = {Effective Use of Courtroom Technology: A Judge's Guide to Pretrial and Trial.},
+  year      = {2001},
+  url       = {http://ezproxy.lib.swin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=ncj&AN=SM194312&site=ehost-live&scope=site},
+  abstract  = {The use of digital and analog equipment including video cameras, digital
+	cameras, computer programs, integrated lecterns, and electronic whiteboard
+	are explored. The book is divided into four parts. Part I provides
+	an overview of the equipment and is divided into three levels. Each
+	piece of equipment is examined in the context of court participation,
+	skills required for equipment setup, impact of equipment on jurors,
+	control issues for judges, and required advocacy skills for successful
+	use. Part II deals with certain aspects of discovery that affect
+	trials using technology. Part III covers pretrial proceedings that
+	include disclosure by the parties, equipment issues, and videoconferencing
+	for pretrial issues. Part IV covers trial preliminary matters, jury
+	selection and instructions, videoconferencing witness testimony,
+	closing argument, final jury instructions and posttrial briefs. Appendices,
+	glossary, index, and CD-ROM},
+  file      = {Federal_Judicial_Ctr2001.pdf:Federal_Judicial_Ctr2001.pdf:PDF},
+  journal   = {Effective Use of Courtroom Technology: A Judge's Guide to Pretrial and Trial},
+  keywords  = {(01182) Trial courts, (04356) Trial procedures, (04895) Courtrooms, (11160) Camera technology},
+  owner     = {rtipping},
+  read      = {No},
+  timestamp = {2012.03.27},
+}
+
+@ARTICLE{Feigenson2003,
+  author = {Feigenson, Neal and Dunn, Meghan A.},
+  title = {New visual technologies in court: Directions for research.},
+  journal = {Law and Human Behavior},
+  year = {2003},
+  volume = {27},
+  pages = {109 - 126},
+  number = {1},
+  issn = {0147-7307},
+  keywords = {visual technologies, courts, research, civil litigation, legal decision
+	making, Adjudication, Experimentation, Legal Processes, Technology,
+	Visual Displays, Civil Law},
+  owner = {rtipping},
+  read = {Re-read},
+  timestamp = {2012.03.27},
+  url = {http://ezproxy.lib.swin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=pdh&AN=lhb-27-1-109&site=ehost-live&scope=site}
+}
+
+@Article{Galves2000,
+  author    = {Galves, Fred},
+  title     = {WHERE THE NOT-SO-WILD THINGS ARE:* COMPUTERS IN THE COURTROOM, THE FEDERAL RULES OF EVIDENCE, AND THE NEED FOR INSTITUTIONAL REFORM AND MORE JUDICIAL ACCEPTANCE},
+  journal   = {Harvard Journal of Law \& Technology},
+  year      = {2000},
+  volume    = {Volume 13, Number 2},
+  pages     = {165-178},
+  url       = {http://jolt.law.harvard.edu/articles/pdf/v13/oldNonPaginated%28DONOTUSE%29/13HarvJLTech161.pdf},
+  file      = {Galve2000.pdf:Galve2000.pdf:PDF},
+  owner     = {rtipping},
+  read      = {No},
+  timestamp = {2012.03.27},
+}
+
+@Electronic{JosiahNoDate,
+  author       = {Josiah, Edward M.},
+  title        = {Technology in the Courtroom:- Mistakes Made with Digital Presentations and Demonstrative Evidence},
+  year         = {NoDate},
+  url          = {http://www.nautcon.com/PDF/Technology_in_the_Courtroom.pdf},
+  organization = {Nautilus Consulting, LLC},
+  address      = {6800 Jericho Turnpike Suite 216E Syosset, NY 11791 Phone: 631-891-3040 Fax: 631-891-3059},
+  file         = {E\:\\Research\\Literature\\Technology in Courtrooms\\Articles\\JosiahNoDate.pdf:E\:/Research/Literature/Technology in Courtrooms/Articles/JosiahNoDate.pdf:PDF},
+  owner        = {rtipping},
+  read         = {No},
+  timestamp    = {2012.03.27},
+}
+
+@ARTICLE{Kiefer2008,
+  author = {Kiefer, Joseph S.},
+  title = {Using Technology In the Courtroom: A Subjective Evaluation of the
+	Benefits of Visual Presentation of Evidence.},
+  journal = {Reporter},
+  year = {2008},
+  volume = {35},
+  pages = {17},
+  number = {2},
+  abstract = {The article discusses the benefits of utilizing technology and visual
+	presentation of evidence in the courtroom. It states that the electronic
+	presentations would provide the fact finder a better sense of the
+	testimonial description which will also gain the attention of the
+	audience. It notes that bringing the practice to a new level of persuasion
+	and professionalism would only take some time, organization, and
+	a little creativity.},
+  issn = {01938134},
+  keywords = {CONDUCT of court proceedingsVIDEO tapes in courtroom proceedingsWITNESSESVISUAL
+	aidsEVIDENCECOMMUNICATION of technical information},
+  owner = {rtipping},
+  read = {no},
+  timestamp = {2012.03.13},
+  url = {http://ezproxy.lib.swin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=f5h&AN=46035690&site=ehost-live&scope=site}
+}
+
+@Article{Kuchler2008,
+  author   = {Kuchler, Deborah D. and O'Toole, Leslie C.},
+  title    = {How Technological Advances in the Courtroom Are Changing the Way We Litigate.},
+  journal  = {FDCC Quarterly},
+  year     = {2008},
+  volume   = {58},
+  number   = {2},
+  pages    = {205 - 217},
+  issn     = {15449947},
+  url      = {http://ezproxy.lib.swin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=32617737&site=ehost-live&scope=site},
+  abstract = {The author reports on the place in which technology is playing in
+	criminal proceedings. Ways in which technology is being used in courtrooms
+	are discussed, such as a way to present evidence and as a way for
+	witnesses to give testimony from an alternate location. The author's
+	opinions regarding the impact which technology has had on the perception
+	of evidence is discussed.},
+  file     = {Kuchler2008.pdf:Kuchler2008.pdf:PDF},
+  keywords = {ACTIONS & defenses (Law), INFORMATION technology, HIGH technology, TECHNOLOGY & law, CONDUCT of court proceedings, EVIDENCE (Law), JUDICIAL process, TRIAL practice},
+  owner    = {rtipping},
+  read     = {Yes},
+}
+
+@Electronic{Lederer1998,
+  author       = {Lederer, Fredric I.},
+  title        = {Courtroom Technology from the Judge's Perspective},
+  year         = {1998},
+  url          = {Lederer, Fredric I.,},
+  organization = {William \& Mary Law School Scholarship Repository},
+  address      = {http://scholarship.law.wm.edu/facpubs},
+  file         = {Lederer1998.pdf:Lederer1998.pdf:PDF},
+  owner        = {rtipping},
+  read         = {yes},
+  timestamp    = {2012.04.03},
+}
+
+@ELECTRONIC{Lederer1997,
+  author = {Lederer, Frederic I.},
+  year = {1997},
+  title = {The Courtroom as a Stop on the Information Superhighway},
+  organization = {The College of William \& Mary},
+  address = {Williamsburg, VA},
+  url = {http://scholarship.law.wm.edu/facpubs/1204/},
+  read = {No},
+  owner = {rtipping},
+  timestamp = {2012.03.27}
+}
+
+@InProceedings{MacDonald2006,
+  author    = {Roslyn.M MacDonald and Mark Burdon and Sheryl M. Jackson},
+  title     = {{Ensuring the integrity of Australia{'}s e-Court process}},
+  booktitle = {RNSA Security Technology Conference 2006},
+  year      = {2006},
+  editor    = {Priyan Mendis and Joseph Lai and Edward P. Dawson},
+  publisher = {Australian Homeland Security Research Centre},
+  pages     = {259--273},
+  url       = {http://eprints.qut.edu.au/8482/},
+  abstract  = {This paper is concerned with the integrity of Australia{'}s e-court
+	processes. The safe and effective functioning of the e-court process
+	is important because all groups in society depend on and adhere to
+	court judgements. Accordingly, e-court industry standards and best-practice
+	guidelines should reflect a rigorous information protection perspective
+	based upon sound information security principles. American e-courts
+	are more advanced than their Australian counterparts. This paper
+	examines existing information protection guidelines in the USA with
+	a view to their potential application in Australian e-courts. A brief
+	comparison of the underlying American and Australian philosophies
+	regarding the use of ICT and information protection in e-courts is
+	undertaken. The authors conclude by showing how an e-filing standard
+	could be developed within an information protection framework that
+	is specific to Australian e-courts.},
+  address   = {Canberra},
+  file      = {May2006.pdf:May2006.pdf:PDF},
+  read      = {No},
+}
+
+@ARTICLE{Macdonald2004,
+  author = {Roslyn.M MacDonald and Anne Wallace},
+  title = {{Review of the Extent of Courtroom Technology in Australia}},
+  journal = {Wm. \& Mary Bill of Rt},
+  year = {2004},
+  volume = {12},
+  pages = {649-659},
+  owner = {rtipping},
+  timestamp = {2012.05.09},
+  url = {http://scholarship.law.wm.edu/wmborj/vol12/iss3/3}
+}
+
+@ARTICLE{Manes2009,
+  author = {Manes, G.W. and Downing, E.},
+  title = {Overview of Licensing and Legal Issues for Digital Forensic Investigators.},
+  journal = {IEEE Security \& Privacy},
+  year = {2009},
+  volume = {7},
+  pages = {45 - 48},
+  number = {2},
+  issn = {15407993},
+  url = {http://ezproxy.lib.swin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=eoah&AN=18897193&site=ehost-live&scope=site}
+}
+
+@Article{Marder2001,
+  author       = {Marder, Nancy S},
+  title        = {Juries and Technology: Equipping jurors for the twenty-first century},
+  journal      = {66 Brooklyn Law Review 1257},
+  year         = {2001},
+  file         = {Marder2001.pdf:Marder2001.pdf:PDF},
+  howpublished = {66 Brooklyn Law Review 1257},
+}
+
+@Electronic{Martin2003,
+  author       = {Martin, Craig},
+  title        = {Helping Juries See Things "With Their Own Eyes"},
+  year         = {2003},
+  url          = {http://articles.technology.findlaw.com/2003/Mar/01/9871.html},
+  organization = {FindLaw},
+  month        = {Mar},
+  file         = {Martin2003.pdf:Martin2003.pdf:PDF},
+  owner        = {rtipping},
+  read         = {No},
+  timestamp    = {2012.03.27},
+}
+
+@Article{Morris2004,
+  author    = {Justice Stuart Morris},
+  title     = {WHERE IS TECHNOLOGY TAKING THE COURTS AND TRIBUNALS?},
+  journal   = {Victorian Judicial Scholarship},
+  year      = {2004},
+  file      = {Morris2004.pdf:Morris2004.pdf:PDF},
+  owner     = {rtipping},
+  read      = {no},
+  timestamp = {2012.04.03},
+}
+
+@Article{Narayanan1999,
+  author   = {Narayanan, Ajit and Penny, Gareth},
+  title    = {On Using Animations in Court.},
+  journal  = {Information \& Communications Technology Law},
+  year     = {1999},
+  volume   = {8},
+  number   = {2},
+  pages    = {151},
+  issn     = {13600834},
+  url      = {http://ezproxy.lib.swin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=iih&AN=2120996&site=ehost-live&scope=site},
+  abstract = {ABSTRACT The aim of this paper is to explore the use of animations
+	in future, technologically equipped courts. The background problems
+	and motivation are described, as are the basic problems which must
+	be overcome if descriptive and interactive animations are to perform
+	a useful service in legal processes. Problems of bias and prejudice
+	are also addressed. Finally, a number of issues are identified which
+	must be empirically tested to ensure that the use of animations in
+	court does not adversely affect the legal process. [ABSTRACT FROM
+	AUTHOR]},
+  file     = {Narayanan1999.pdf:Narayanan1999.pdf:PDF},
+  keywords = {ANIMATION (Cinematography), COURTS, PROCEDURE (Law)},
+}
+
+@Electronic{Perez2007,
+  author    = {Perez, Charles},
+  title     = {Courtroom Technology - Coming of Age in the 21st Century},
+  year      = {2007},
+  url       = {http://www.trialpresentationblog.com/2007/02/articles/courtroom-presentation-assista/courtroom-technology-coming-of-age-in-the-21st-century/},
+  note      = {More available on blogsite},
+  month     = {February},
+  file      = {Perez2007.pdf:Perez2007.pdf:PDF},
+  keywords  = {Visual Learners, demonstrative evidence},
+  owner     = {rtipping},
+  read      = {Yes},
+  timestamp = {2012.03.27},
+}
+
+@ARTICLE{Wallace2009,
+  author = {Wallace, Anne and Rowden, Emma},
+  title = {Gateways to Justice: The Use of Videoconferencing Technology to Take
+	Evidence in Australian Courts},
+  journal = {9th European Conference on eGovernment},
+  year = {2009},
+  pages = {653--660},
+  editor = {Remenyi, DanEditor},
+  keywords = {Closed circuit television, video conferencing},
+  owner = {rtipping},
+  publisher = {Academic Publishing Limited, Reading, UK},
+  read = {No},
+  timestamp = {2012.03.27},
+  url = {http://www.mendeley.com/research/gateways-justice-videoconferencing-technology-take-evidence-australian-courts-1/}
+}
+
+@InProceedings{Warren2004,
+  author    = {Warren ({Chief Justice}), Marilyn},
+  title     = {{Speech: Modernising Justice -- {I.T.} and the Supreme Court}},
+  year      = {2004},
+  url       = {http://corrigan.austlii.edu.au/au/journals/VicJSchol/2004/19.html},
+  file      = {Warren2004.pdf:Warren2004.pdf:PDF},
+  owner     = {rtipping},
+  timestamp = {2012.04.03},
+}
+
+@Electronic{Zand2003,
+  author    = {Joel Zand},
+  title     = {Court Rooms Go High Tech},
+  year      = {2003},
+  file      = {E\:\\Research\\Literature\\Technology in Courtrooms\\Articles\\Zand2003.pdf:E\:/Research/Literature/Technology in Courtrooms/Articles/Zand2003.pdf:PDF},
+  owner     = {rtipping},
+  read      = {no},
+  timestamp = {2012.04.03},
+}
+
+@Book{PreeceRogersSharp0,
+  author    = {Preece, Jennifer and Rogers, Yvonne and Sharp, Helen},
+  title     = {Interaction Design: Beyond Human-Computer Interaction},
+  year      = {2007},
+  edition   = {2},
+  publisher = {Wiley},
+  isbn      = {978-1-119-02075-2},
+  abstract  = {The book is an ideal resource for learning the interdisciplinary skills needed for interaction design, human-computer interaction, information design, web design and ubiquitous computing. It deals with a broad scope of issues, topics and paradigms that has traditionally been the scope of Human-Computer Interaction (HCI) and Interaction Design (ID). The book covers psychological and social aspects of users, interaction styles, user requirements, design approaches, usability and evaluation, traditional and future interface paradigms and the role of theory in informing design. The topics will be grounded in the design process and the aim is to present relevant issues in an integrated and coherent way, rather than assembling a collection of chapters on individual HCI topics.},
+  added-at  = {2018-02-15T12:27:30.000+0100},
+  address   = {Hoboken, NJ},
+  biburl    = {https://www.bibsonomy.org/bibtex/25fb280503d5c9970fc504189975c31bf/flint63},
+  file      = {eBook (aus EPUB):2015/PreeceRogersSharp15.pdf:PDF;Wiley Product page:http\://eu.wiley.com/WileyCDA/WileyTitle/productCd-1119020751.html:URL;Amazon Search inside:http\://www.amazon.de/gp/reader/1119020751/:URL;Related Web Site:http\://www.id-book.com/:URL},
+  groups    = {public},
+  interhash = {311e8f8eb8d1c0ba7fe0b1c492b95322},
+  intrahash = {5fb280503d5c9970fc504189975c31bf},
+  keywords  = {01821 101 book shelf user interface interaction design intro zzz.hci},
+  timestamp = {2018-04-16T12:39:20.000+0200},
+  username  = {flint63},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

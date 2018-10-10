@@ -3,21 +3,35 @@
 % Include Preamble.tex================
 \include{Preamble}
 
+%\includeonly{Appendix_1}
+
 \begin{document}
 \tableofcontents
 
 
 \include{Chapter_1_Introduction}
 
+
+
 \include{Chapter_5_Software}
 
 \include{Chapter_6_Hardware}
 
+
+
 \include{Chapter_7_Work_Area_Size}
+
+%\include{Bibliography}
+\bibliography{CourtsBibtex} 
+\bibliographystyle{ieeetr}
+
+
 \appendix
 
 \begin{spacing}{1.0}
 
 \include{Appendix_1}
 \end{spacing}
+
+
 \end{document}

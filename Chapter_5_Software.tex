@@ -10,6 +10,7 @@
 Technology that is used for evidence presentation in Australian courtrooms needs to support all of the required legal process of the Courts. While there are many issues relating to the hardware requirements (presented in 
 \refChap{chap:Hardware} ), the specific requirements of the software used must also be thoroughly examined. The uptake of tablet technology in society, and more specifically with the legal system is increasing.
 % Note from Clinton, not sure how to put in 
+
 Barristers and judges are starting to see the advantage of placing their court notes on iPads, allowing them easy access from within the courtroom. iPads are also being used by magistrates and judges for many other court related tasks. The increasing level of acceptance of tablet technology offers the opportunity to consider using tablet technology for evidence presentation purpose in Australian courtrooms.
 
 This chapter presents results from a 2012 investigation regarding the available software features and their usability.
@@ -25,10 +26,12 @@ This study was conducted in three phases:
     \item application usability testing
     \item analysis of the applications against identified requirements
 \end{enumerate} 
-Techniques employed in this study were selected from the discipline of Human Computer Interaction (HCI) \color{green}(Preece et al., 2007).
+Techniques employed in this study were selected from the discipline of Human Computer Interaction (HCI) %\cite{PreeceRogersSharp07F}
+\cite{PreeceRogersSharp07}
 \color{black}
 \subsection{Requirements Gathering}
-Establishing the requirements for this study was conducted in two phases. The first phase involved Field Studies. This phase was conducted over a two month period observing evidence being presented in various courtrooms, including the Magistrates Court, the County Court, and the Supreme Court. While conducting these field studies informal discussions were held with judges, magistrates, barristers, expert witnesses, tipstaff, and court reporters.\footnote{Court reporters record everything said in a case using a stenographic machine.  }\\
+Establishing the requirements for this study was conducted in two phases. The first phase involved Field Studies. This phase was conducted over a two month period observing evidence being presented in various courtrooms, including the Magistrates Court, the County Court, and the Supreme Court. While conducting these field studies informal discussions were held with judges, magistrates, barristers, expert witnesses, tipstaff, and court reporters.\footnote{Court reporters record everything said in a case using a stenographic machine.  }
+
 An affinity diagram was then created for identified behaviours, activities, tasks, tools and goals. These were categorised into physical, organisational, technical, and social contexts.
 
 % include Affinity diagram==========================================
@@ -47,7 +50,7 @@ Each of the tester users were asked to perform a number of tasks that had been i
 \subsection{Moot Court}
 Phase Two of the application testing was conducted in a Moot Court environment. Nine test candidates were used in this phase of the testing. None of the candidates had any previous experience with any of the applications, and only limited experience using tablet technologies. The candidates had been involved in the courtroom visits, so had some understanding of the courtroom environment, courtroom processes, and behaviours. The test were conducted using a scripted scenario that required the candidates to present evidence in a mock trial. Candidates played the roles of Magistrate, Defence Council, and Prosecuting Council. No styluses, or pointing devices were used throughout this test, candidates interacted with the applications using only their fingers. The iPads used in the test were connected to a data projector via a physical cable to allow for the interface to be closely monitored throughout the test. This physical cable connection did not impede the candidates use of the iPads.
 
-\section{Phase 1}
+\section{Phase 1: Requirements Analysis}
 \subsection{Requirements Analysis}
 The requirements analysis process identified many critical issues with current courtroom procedures that would benefit from an IT solution. These issues can be categorised into six main areas:
  
@@ -61,92 +64,113 @@ The requirements analysis process identified many critical issues with current c
 \end{enumerate}
 Each of these categories is considered using a synopsis consisting of the current situation, and an iPad application as a solution. Observations from the tests conducted on the applications will be discussed.
  
-\section{Phase 2} 
+\section{Phase 2: Usability Application Analysis\label{UsabilityApplicationAnalysis}} 
  \subsection{Evidence}
  \subsubsection{Current Situation:}
-The large volume of evidence now required in many cases was clearly identified in the initial phase of this study. Current practice involves paper documents, that each have to be created, collated, and photocopied. Investigators observed one case where several trolleys full of document files were wheeled into the courtroom. This is really cumbersome process, and often results in delays and adjournments in cases while the correct documentary evidence is located, copied, and distributed to the various parties within the courtroom.\\
-Due to the volume of evidence now required in many cases the method of loading evidence onto the tablets is of greater importance. A streamlined process to achieve evidence loading is critical for the usability of any system that will be developed.\\
+The large volume of evidence now required in many cases was clearly identified in the initial phase of this study. Current practice involves paper documents, that each have to be created, collated, and photocopied. Investigators observed one case where several trolleys full of document files were wheeled into the courtroom. This is really cumbersome process, and often results in delays and adjournments in cases while the correct documentary evidence is located, copied, and distributed to the various parties within the courtroom.
+
+Due to the volume of evidence now required in many cases the method of loading evidence onto the tablets is of greater importance. A streamlined process to achieve evidence loading is critical for the usability of any system that will be developed.
+
 \subsubsection{iPad application as a solution:}
-Loading of evidence files onto the test iPads was done via file transfer over a wireless network. Loading of the files was a very time consuming and cumbersome process. This issue will clearly be magnified in cases that involve larger volumes of evidence.\\
+Loading of evidence files onto the test iPads was done via file transfer over a wireless network. Loading of the files was a very time consuming and cumbersome process. This issue will clearly be magnified in cases that involve larger volumes of evidence.
+
 \subsubsection{Test Observations:}
 It was observed during the usability application analysis that the wireless network connection failed. The result of this failure rendered candidates unable to complete the loading of evidence from the Dropbox repository.\\
-Evidence loading via a wireless network connection allows great flexibility for the application, but the quality of the wireless connection must be assured. The addition of a ``hard wired'' alternative would be of great benefit, both in terms of reliability, and also in file transfer rates. This hard wired alternative could take the form of a network connection via ethernet cable or the use of a memorystick via a usb port. iPads do not currently have an eithernet port or a usb port, other tablets do offer this.\\
+Evidence loading via a wireless network connection allows great flexibility for the application, but the quality of the wireless connection must be assured. The addition of a ``hard wired'' alternative would be of great benefit, both in terms of reliability, and also in file transfer rates. This hard wired alternative could take the form of a network connection via ethernet cable or the use of a memorystick via a usb port. iPads do not currently have an eithernet port or a usb port, other tablets do offer this.
+
 \subsection{Navigation}
 \subsubsection{Current Situation:}
-Navigation within documents is a critical issue. This issue is lessened when the documents are moved through in a sequential order in a case. During testing members of the court were often observed back through documents to find relevant and related material. Lengthy documents were of particular concern as this involved turning pages back and forth to find the relevant material within the same document.\\
+Navigation within documents is a critical issue. This issue is lessened when the documents are moved through in a sequential order in a case. During testing members of the court were often observed back through documents to find relevant and related material. Lengthy documents were of particular concern as this involved turning pages back and forth to find the relevant material within the same document.
+
 \subsubsection{iPad application as a solution:}
-Applications tested on the iPad offer scrolling within the document, and also a back button that allows the user to retrace their path through document files.\\
+Applications tested on the iPad offer scrolling within the document, and also a back button that allows the user to retrace their path through document files.
+
 \subsubsection{Test Observations:}
-Test candidates were observed to often struggle navigating between the various function of the evidence presentation application. The lack of consistency within applications was identified as a major cause. An example of this is the "back" button in the Exhibit A application. The button was always in the same location on the screen, but depending on the page being displayed the text on the button would change. Test candidates often struggled to navigate to their desired location within the applications. One candidate was observed to actually give up on a task because of the frustration this caused. \\
+Test candidates were observed to often struggle navigating between the various function of the evidence presentation application. The lack of consistency within applications was identified as a major cause. An example of this is the "back" button in the Exhibit A application. The button was always in the same location on the screen, but depending on the page being displayed the text on the button would change. Test candidates often struggled to navigate to their desired location within the applications. One candidate was observed to actually give up on a task because of the frustration this caused. 
+
 The size of the buttons on the application interface was also observed to be an issue. Buttons were located very close together due to the limited work area offered by the iPad. It was observed during both the usability application analysis, and the moot court session that the users often selected the wrong button. This resulted not only in failing to navigate to the desired location, but in one case an evidence file being mistakenly annotated when the user mistakenly selected the pen button thinking they had selected a different functionality. When user are only using their fingers to interact with the tablet button size must be increased. This issue could be reduced by the use of a stylus or other pointing device.
 \subsection{File Handling}
 \subsubsection{Current Situation:}
-As evidence volumes increase the issue of locating the correct file increase. Paper based trials use an extensive indexing system to keep track of all evidence documents in the many volumes of paper documents. It was observed that often court participant had difficulty finding the correct place within lengthy documents when directed to related material. This often resulted in wasted time while the relevant text was located.\\
+As evidence volumes increase the issue of locating the correct file increase. Paper based trials use an extensive indexing system to keep track of all evidence documents in the many volumes of paper documents. It was observed that often court participant had difficulty finding the correct place within lengthy documents when directed to related material. This often resulted in wasted time while the relevant text was located.
+
 \subsubsection{iPad application as a solution:}
-The iPad applications offer the ability create file structures, and have search functionality that allow the user to easily navigate to the correct location. There is no need for the user to recall the file type, or the file placement within the file structure.\\
+The iPad applications offer the ability create file structures, and have search functionality that allow the user to easily navigate to the correct location. There is no need for the user to recall the file type, or the file placement within the file structure.
 
 \subsubsection{Test observations:}
-During the usability application analysis test candidates selected the correct file on most occasions, but were only using a data pack of ten files. Some candidates commented that they found it difficult to find the correct files. The applications often stored all files in the one location with no folder structure to aid in sorting them. Exhibit A does use a folder structure for the sorting of files. In cases involving large numbers of files this issue will be greatly increased, and the importance of a folder structure will be magnified.\\
+During the usability application analysis test candidates selected the correct file on most occasions, but were only using a data pack of ten files. Some candidates commented that they found it difficult to find the correct files. The applications often stored all files in the one location with no folder structure to aid in sorting them. Exhibit A does use a folder structure for the sorting of files. In cases involving large numbers of files this issue will be greatly increased, and the importance of a folder structure will be magnified.
 
 
 \subsection{Evidence Annotation}
 \subsubsection{Current Situation:}
 Annotating of evidence is a common activity by all members of the judiciary. It was often observed that defence, prosecution, judges , and magistrates were annotation various documents and images during proceedings. These annotations were "private" and could not be shared with other court participants in order to highlight a particular point on the paper documents.
-\\
+
 \subsubsection{iPad application as a solution:}
 All of the iPad applications offered the functionality to highlight, underline, redact, write notes, freehand draw on evidence files, both documents and images. The ability to remove a one or all annotations was also available.
-\\
+
 \subsubsection{Test observations:}
-Candidates often experienced difficulties while attempting to annotate both documents and images in both the usability application analysis and the moot court.\\
+Candidates often experienced difficulties while attempting to annotate both documents and images in both the usability application analysis and the moot court.
+
 The issues experienced by candidates primarily related to to the lack of accuracy when interacting with the interface with their fingers. As an example, when attempting to underline a particular passage in a document candidates were observed to place the underline thorough the text, not under it. If the underline tool was freehand the line would tend to wonder across the text of the document. Highlighting and redact tool also suffered from a similar accuracy issue.\\
-The issue of onscreen annotation was significantly increased when the candidate was attempting to use onscreen hand gestures to navigate for scrolling or zooming within a document or image. The annotation tool did not automatically exit, and if the candidate forgot to exit the annotation tool before attempting to navigate erroneous annotations  would be generated.\\
+The issue of onscreen annotation was significantly increased when the candidate was attempting to use onscreen hand gestures to navigate for scrolling or zooming within a document or image. The annotation tool did not automatically exit, and if the candidate forgot to exit the annotation tool before attempting to navigate erroneous annotations  would be generated.
+
 The saving of annotations on documents and images was also identified as an issue. Some applications saved the annotations by creating a screenshot of the annotated document or image and saving it as a separate .jpg file, showing only what what currently visible on the screen. This method of saving resulted in any annotation that was not visible on the screen at the time of saving being lost.
 None of the applications tested had the ability to hyperlink between or within files. Candidates needed to close one file before navigating to and opening another, a time consuming task.
 
 
 \subsection{Evidence Display Manipulation}
 \subsubsection{Current Situation:}
-The way in which evidence could be displayed was also observed to be an issue. Hard copy evidence, both documents and images, were difficult to manipulate to allow the court participant to view in fine detail, or from a particular rotation. This was largely due to the hard copy documents or images being in large folders. The rotation of any images displayed using a video projector or screen was not possible.\\
+The way in which evidence could be displayed was also observed to be an issue. Hard copy evidence, both documents and images, were difficult to manipulate to allow the court participant to view in fine detail, or from a particular rotation. This was largely due to the hard copy documents or images being in large folders. The rotation of any images displayed using a video projector or screen was not possible.
+
 \subsubsection{iPad application as a solution:}
-Some tested applications had the ability to rotate documents and images, and also the ability to magnify areas within documents and images through a magnification pop-out tool.These tools did not in anyway alter the evidence, only the way that it was displayed at the time the tools were used.\\
+Some tested applications had the ability to rotate documents and images, and also the ability to magnify areas within documents and images through a magnification pop-out tool.These tools did not in anyway alter the evidence, only the way that it was displayed at the time the tools were used.
+
 \subsubsection{Test observations:}
 Some of the tested applications did not have rotation resulting in some test candidates not being able to complete the image rotation task. Applications that did have these tools were still not ideal. One of the applications only allowed users to rotate the document or image in one direction, while the other while allowing multi-directional rotation only allowed 90 degree increments\\
 The pop-out magnification tool, while quite useful, also presented a number of issues. The quality of the magnified image was quite low, particularly when magnifying low resolution images, often resulting in a very pixelated output. Several test candidates were observed having difficulties returning from the magnified image to the standard image, highlighting the need for a clear close operation on the tool. The tool also failed to show prior annotations or redactions on the magnified image, this is of particular concern, as it could easily lead to a mistrial situation.
 
 \subsection{Evidence Display}
 \subsubsection{Current Situation:}
-Video evidence presentation in courtrooms is currently limited to the use of  mounted on trolleys or the walls of the courtroom, or data projection onto to the blank walls of the courtroom. In most cases this proved to be a highly ineffectual method of communicating the data to the members of the court. Often members of the court were unable to adequately see the screens due to their location within the courtroom, and members were often  seen removing reading glasses to view the video at some distance. Judges were observed swivelling their chairs, turning their back on half the court in order to view a video screen mounted on the side wall of the court.\\
+Video evidence presentation in courtrooms is currently limited to the use of  mounted on trolleys or the walls of the courtroom, or data projection onto to the blank walls of the courtroom. In most cases this proved to be a highly ineffectual method of communicating the data to the members of the court. Often members of the court were unable to adequately see the screens due to their location within the courtroom, and members were often  seen removing reading glasses to view the video at some distance. Judges were observed swivelling their chairs, turning their back on half the court in order to view a video screen mounted on the side wall of the court.
+
 Data projectors were equally problematic. In one case a police prosecutor in a Magistrates Court trial complained to the Magistrate that the only free wall space available to project onto was directly under a light fitting, rendering the projected evidence virtually useless.
-In all cases the use of screens and data projectors were not a reasonable option for communicating video evidence. \\
-Council, both prosecution and defence, were observed leaving their position with the courtroom to highlight specific points within a video presentation with a laser pointer. This was more of a distraction from the evidence than a highlight for several reasons. The laser pointer was very difficult to see, particularly from a distance, and often the barrister in having to be close to the screen or projected image would obscure it from the other members of the court.\\
+In all cases the use of screens and data projectors were not a reasonable option for communicating video evidence. 
+
+Council, both prosecution and defence, were observed leaving their position with the courtroom to highlight specific points within a video presentation with a laser pointer. This was more of a distraction from the evidence than a highlight for several reasons. The laser pointer was very difficult to see, particularly from a distance, and often the barrister in having to be close to the screen or projected image would obscure it from the other members of the court.
+
 \subsubsection{iPad application as a solution:}
-The iPad applications offered the ability to project the video through a data projector. While this still left the issues relating to the location of the projected image, it did solve the problems of highlighting particular areas of the presentation. Applications have a built in laser pointer that is clearly visible, and can be operated by the barristers from their usual position within the courtroom. Ideally the video output could be simultaneously streamed to personal viewing devices held by each member of the court, eliminating the issue of projection location also.\\
+The iPad applications offered the ability to project the video through a data projector. While this still left the issues relating to the location of the projected image, it did solve the problems of highlighting particular areas of the presentation. Applications have a built in laser pointer that is clearly visible, and can be operated by the barristers from their usual position within the courtroom. Ideally the video output could be simultaneously streamed to personal viewing devices held by each member of the court, eliminating the issue of projection location also.
+
 \subsubsection{Test observations:}
-All of the tested applications had a display function that the user was required to activate in order to display the currently shown evidence. To be able to display the evidence the iPad was required to be connected to the display, either a monitor or data projector. This connection could be either wireless or 'hard wired'. Two issues were discovered during the moot court while candidates were attempting to display evidence. \\
+All of the tested applications had a display function that the user was required to activate in order to display the currently shown evidence. To be able to display the evidence the iPad was required to be connected to the display, either a monitor or data projector. This connection could be either wireless or 'hard wired'. Two issues were discovered during the moot court while candidates were attempting to display evidence. 
+
 Firstly, the ``hard wired'' connection between the iPad and the screen could not be securely connected to the iPad, any significant movement of the iPad would cause the connection to dislodge, stopping the display. This occurred on several occasions during the moot court.
+
 Secondly, the display function on two of the applications could be enabled by a single button click, and no user validation was required. During the moot court it was observed that an unintentional display of a document occurred through the user mistakenly selecting the wrong button. This was judged to be a very serious situation, accidental display of inadmissible evidence could potentially lead to a mistrial.
 
 
 
-\section{Phase 3\label{Phase3}}
-\subsection{Applications Tested and Their Functionality}
+\section{Phase 3: Applications Evaluated and Their Functionality\label{Phase3}} %What do I call this section
+%\subsection{}
 \subsubsection{Testing Criteria}
 When the three applications were presented to the Australian judiciary further testing was requested to establish their robustness, usability, learnability, functionality and relevance to the Australian court system.
+
 \subsubsection{Robustness}
 Video presentation functionality on all of the applications was quite slow, and in some not available. One application, Exhibit A, only supported ,mov video files, RLTC Evidence did not support any video files.
+
 \subsubsection{Usability}
-Navigation was an issue with all of the applications. RLTC Evidence, and Trialpad presented significant difficulties for the user, users were often seen struggling to navigate to the required location. Exhibit A, while somewhat more intuitive, still required the user to learn how to navigate within the application, rater that using real world knowledge. \\
+Navigation was an issue with all of the applications. RLTC Evidence, and Trialpad presented significant difficulties for the user, users were often seen struggling to navigate to the required location. Exhibit A, while somewhat more intuitive, still required the user to learn how to navigate within the application, rater that using real world knowledge. 
+
 Inconsistencies of terminology within individual applications where found. These inconsistencies often confused the user, leading to errors in not only navigation, but overall use of many functions. Terminology used within the applications was not always aligned with the nomenclature of the Australian court environment.
 
-
-
-
 In terms of usability, document manipulation was a primary concern. Document manipulation is critical functionality for evidence presentation. While most test users managed to achieve the set tasks, the quality of the outcomes was usually not high. As previously presented, the inaccuracy of interacting with the interface using only a finger lead to these low quality outcomes.
+
 \subsubsection{Learnability}
 None of the tested applications were found to be very intuitive, all required learning on the part of the user.The order in which the applications were presented to the test users did not appear to effect the learnability of functionality within each application.Overall the preferred application for learnability was Exhibit A.
+
 \subsubsection{Functionality}
-RLTC Evidence had the lowest level of functionality of the three applications tested. Exhibit A and Trialpad offered similar levels of functionality, although Trialpad offered better video format support, and document format support.\\
-Projection of evidence was a significant issue for all of the applications. This issue is lessened with the use of later generation iPads as the later generation operating systems provide the facility for presentation rather than relying on the evidence applications to provide their own.\\
+RLTC Evidence had the lowest level of functionality of the three applications tested. Exhibit A and Trialpad offered similar levels of functionality, although Trialpad offered better video format support, and document format support.
+
+Projection of evidence was a significant issue for all of the applications. This issue is lessened with the use of later generation iPads as the later generation operating systems provide the facility for presentation rather than relying on the evidence applications to provide their own.
 \subsubsection{Relevance}
 The relevance of the three tested applications to the Australian judicial system was not able to be determined by these studies, further field testing will be required to make this determination.
 \newpage
@@ -155,13 +179,13 @@ The relevance of the three tested applications to the Australian judicial system
 The following Table shows a comparison of functionality between the three applications tested: 
 
 \begin{center}
-\begin{table}[h!]
+\begin{table}[htbp]
 \label{tab:ComparisonOfFunctionality}    
 \caption{Comparison of Functionality}
 
 \small
 \centering
-\
+
 \singlespace
 
 \begin{tabular}{|l| c|| c| c| c |} 
@@ -270,18 +294,18 @@ Key: TP = TrialPad, ExA = Exhibit A, RLTC = RLTC Evidence, Yes* = Limited functi
 
 \section{Recommendations}
 \doublespace
-In light of the analysis of user requirements in \refSect{sec:UsabilityApplication Analysis} and the testing of the three evidence presentation applications for the iPad in \refSect{Phase3} the following recommendations are offered to improve usability and usefulness of any application used for evidence presentation in Australian courtrooms.\\
+In light of the analysis of user requirements in \refSect{sec:UsabilityApplication Analysis} and the testing of the three evidence presentation applications for the iPad in \refSect{Phase3} the following recommendations are offered to improve usability and usefulness of any application used for evidence presentation in Australian courtrooms.
+
 \subsection{Navigation}
 \begin{itemize}
-   
-
-    \item Application interfaces design should be consistent in layout, using navigation elements that are intuitive, and consistent. Design of navigation elements should allow for accurate use with only a finger, not requiring the use of a pointing device or stylus.
+     \item Application interfaces design should be consistent in layout, using navigation elements that are intuitive, and consistent. Design of navigation elements should allow for accurate use with only a finger, not requiring the use of a pointing device or stylus.
     \item The size and design of buttons must ensure easy selection using only a finger. This will eliminate the need for a stylus or other pointing device.
     \item Design of icons used on buttons needs to be carefully considered, as a wide range of users will use the application. Inclusion of a text description as well as an icon was clearly identified as being helpful by test users. A smaller icon will need to be used in combination with text. Alternatively a larger dimension button could be used, but this option would tend to clutter the work area of the interface.
     \item Using a finger to interact with the interface does not give an accurate contact point, and often the finger will obscure the relevant parts of the interface. Functional operations that require a higher level of precision will necessitate the use of a pointing device, such as a mouse or a stylus.
     \item A rotation tool is needed that will allow the user to rotate images and documents in either direction, and also allow the user to specify the rotation increments. Ideally the rotation tool should recognise that accepted finger rotation gesture of placing two fingers on the interface and rotating them around each other. Use of the rotation finger gesture would allow the user to custom rotate the displayed document or image to any angle desired.
     \item Pop-out magnification tool should display all current annotations and redactions. This would avoid the possibility of redacted text being displayed in clear text to the court.
 \end{itemize}
+
 \subsection{Annotation}
 \begin{itemize}
     \item All annotation tools should have both freehand and straight-line functionality. Straight-line functionality for both the underline tool and the highlight tool would greatly improve annotation accuracy.
@@ -296,6 +320,7 @@ In light of the analysis of user requirements in \refSect{sec:UsabilityApplicati
     \item The file system should represent a case based structure.
     \item Devices used for running of evidence presentation software should has a high speed robust file transfer capability, a usb port for example. Applications should have the ability to transfer folders and archived files. This would overcome the issue of speed of file transfers, and reliance on unreliable wireless network connections.
 \end{itemize}
+
 \subsection{Evidence Display}
 \begin{itemize}
     \item All members of the court should be provided with an individual iPad/Tablet on which all evidence should be displayed. Providing each member with their own individual device will allow the member to manipulate and rotate the displayed evidence to their own requirements. This will eliminate the requirement for members to view a central screen, which can be physically difficult in some courtrooms. Individual viewing devices will also reduce the issue of the members having poor eye sight as it will bring the displayed evidence much closer to the member.
@@ -311,14 +336,14 @@ In light of the analysis of user requirements in \refSect{sec:UsabilityApplicati
 \end{itemize}
 
 \section{Application Performance Summary}
-A complete application performance summary is included in \refApp{App:PerformanceSummary}
+A complete application performance summary is included in \refApp{Appendix:PerformanceSummary}
 
 \section{Closing Comments}
 %\color{yellow} Not sure how to structure this section, check with Supervisors.
 
-Introduction of any new methods of evidence presentation into Australian courtrooms is very problematic. Due to the nature of the Judicial system there is a requirement that any new method be compliant with all of the requirements and processes of the Australian legal system. Any failure to meet these requirements or processes would have a predjudicial effect on the outcome of the case it is being used in, and would greatly reduce adoption levels for the new method.\\
+Introduction of any new methods of evidence presentation into Australian courtrooms is very problematic. Due to the nature of the Judicial system there is a requirement that any new method be compliant with all of the requirements and processes of the Australian legal system. Any failure to meet these requirements or processes would have a predjudicial effect on the outcome of the case it is being used in, and would greatly reduce adoption levels for the new method.
 
-Software applications to be used in Australian courtrooms must meet the needs of the courtrooms both in terms of included funtcionality and usability. This work has identified significant shortcomings in all of the applications tested in both areas. Adoption of the recommendations made in this chapter will improve the usability, and functional performance of software to be used for this purpose.\\
+Software applications to be used in Australian courtrooms must meet the needs of the courtrooms both in terms of included funtcionality and usability. This work has identified significant shortcomings in all of the applications tested in both areas. Adoption of the recommendations made in this chapter will improve the usability, and functional performance of software to be used for this purpose.
 %\color{black}
 
 

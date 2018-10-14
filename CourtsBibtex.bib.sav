@@ -428,7 +428,7 @@
   timestamp = {2012.04.03},
 }
 
-@Book{PreeceRogersSharp0,
+@Book{PreeceRogersSharp07,
   author    = {Preece, Jennifer and Rogers, Yvonne and Sharp, Helen},
   title     = {Interaction Design: Beyond Human-Computer Interaction},
   year      = {2007},
@@ -446,6 +446,15 @@
   keywords  = {01821 101 book shelf user interface interaction design intro zzz.hci},
   timestamp = {2018-04-16T12:39:20.000+0200},
   username  = {flint63},
+}
+
+@Article{Heerboth2013,
+  author  = {Heerboth, C},
+  title   = {Technology \& its effect on the Judicial Process},
+  journal = {Precedent},
+  year    = {2013},
+  editor  = {Winter},
+  pages   = {7-11},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

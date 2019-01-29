@@ -457,4 +457,13 @@
   pages   = {7-11},
 }
 
+@InProceedings{Nielsen1990,
+  author    = {Jukob Nielsen and Rolf Molich},
+  title     = {Heuristic Evaluation of User Interfaces},
+  booktitle = {IN: PROCEEDINGS OF THE CHI´90 CONFERENCE, SEATTLE},
+  year      = {1990},
+  publisher = {S},
+  pages     = {249--256},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -63,25 +63,30 @@ This section will initalyy examine the general response of participants to using
 % insert Graphics
 
 
-\begin{figure}[h]
-\centering
-\begin{subfigure}[]{0.4\textwidth}
-        
-        \includegraphics[height=1.2in]{Exhibit_A_Cases}
-        \caption{Exhibit A - Cases directory}
-        \label{fig:exhibit_a_cases_Directory}
-    \end{subfigure}
-    
-    \begin{subfigure}[t]{0.4\textwidth}
-        
-        \includegraphics[height=1.2in]{Exhibit_A_Exhibits}
-        \caption{Exhibit A - Exhibits folder}
-        \label{fig:exhibit_a_exhibits_folder}
-    \end{subfigure}%
+\begin{figure}[h] \centering
+% \begin{subfigure}[]{0.4\textwidth}
+% \includegraphics[height=1.2in]{Exhibit_A_Cases}
+% \caption{Exhibit A - Cases directory}
+% \label{fig:exhibit_a_cases_Directory}
+% \end{subfigure}
+\subfloat [Exhibit A - Cases directory]
+{\includegraphics{Exhibit_A_Cases}
+\label{fig:exhibit_a_cases_Directory}}
+
+%     \begin{subfigure}[t]{0.4\textwidth}
+% 
+%         \includegraphics[height=1.2in]{Exhibit_A_Exhibits}
+%         \caption{Exhibit A - Exhibits folder}
+%         \label{Exhibit_A_Exhibits}
+%     \end{subfigure}%
+\hspace{0.5cm}
+\subfloat[Exhibit_A_Exhibits]{\includegraphics{Exhibit_A_Exhibits}\label{Exhibit_A_Exhibits}}
+
+\end{figure}
 %\includegraphics[width=0.4\textwidth]{Exhibit_A_Cases}
 %\caption{Exhibit A - Cases directory}
 
-\end{figure}
+
 
 %&
 
@@ -96,6 +101,23 @@ This section will initalyy examine the general response of participants to using
 %\end{tabular}
 %\end{table}
 %\end{center}
+
+% \begin{minipage}[c]{0.5\textwidth}
+%    \begin{figure}[h]
+%       \centering
+%       \includegraphics[height=1in]{Exhibit_A_Cases}
+%       \caption{Example LaTeX Figure} 
+%       \label{fig:NASA_Logo2}
+%    \end{figure}
+% \end{minipage}%
+% \begin{minipage}[c]{0.5\textwidth}
+%    \begin{figure}[h]
+%       \centering
+%       \includegraphics[height=1in]{Exhibit_A_Exhibits}
+%       \caption{Example LaTeX Figure} 
+%       \label{fig:Orion_Logo2}
+%    \end{figure}
+% \end{minipage}
 
 
 Graphics manipulation functionality was responded to favourably by 88\% of the participants. This functionality includes highlighting, zooming, drawing on whiteboard, enlargement of image section, selecting drawing tools, erasing, and using the undo option. It was generally felt that that this functionality offered the user the ability to manipulate the user interface to best suit the user in preparing the material for further consideration.
@@ -115,11 +137,122 @@ Manipulation of text in a PDF document was also highly rated by participants, wi
 Participants were less impressed with the cross Case management functionality, which includes file transfer between Cases, file duplication file searching, and file downloading from Dropbox. Only 50\% of participants found this functionality satisfactory.
 
 \subsection{Issues Identified and Suggested Solutions}
+Even though the large majority of participants in the Moot Court viewed the general functionality of Exhibit A as accepatble, managable, and innovative, the following were identified.
+The following tables (\refTable{tab:Issues_General_Operation} - \refTable{tab:Issues_File_Management}) show issues with Exhibit A using the severity scale of 1 for No Real Concern, up to 5 for Critical \citep{Nielsen1990}.
 
+% General Operation Table=========================================
+\begin{center}
+\begin{table}[htbp]
+\label{tab:Issues_General_Operation}
+  \centering
+  \caption{General Operation}
+    \begin{tabular}{|p{0.40\textwidth}|c|p{0.40\textwidth}|}
+    \hline
+    \rowcolor{lightgrey}\multicolumn{3}{|l|}{General Operation} \\
+    \hline
+    \textbf{Areas and Issues of Concern} & \textbf{Sev 0-5} & \textbf{Suggested Solution}\\
+    \hline
+    iPad working area too small & 2 & Alternative larger size sceen tablet device\\
+    \hline
+    Difficult to master quickly & 1 & Training in package required pre-trial\\
+    \hline
+   Scrolling can be too sensative and unstable causing system failure. & 5 & Use of arrows more reliable and controlable. Requires urgent debugging.\\
+   \hline
+   Finger based manipulation required too high a level of dexterity, especially for underlining. & 4 & Develope snap lock option, use block highlighting as much as possible.\\
+   \hline
+   Editing tools remail selected after use. & 2 & Redesign with editing tools auto deselecting after use.\\
+   \hline
+   
+\end{tabular}
+\end{table}
+\end{center}
 
+%Graphics and Multimedia Table===================================================
+\begin{center}
+\begin{table}[htbp]
+\label{tab:Issues_Grapgics_and_Multimedia}
+  \centering
+  \caption{Graphics and Multimedia}
+    \begin{tabular}{|p{0.40\textwidth}|c|p{0.40\textwidth}|}
+    \hline
+    \rowcolor{lightgrey}\multicolumn{3}{|l|}{Graphics and Multimedia} \\
+    \hline
+    \textbf{Areas and Issues of Concern} & \textbf{Sev 0-5} & \textbf{Suggested Solution}\\
+    \hline
+    Difficult to find tool bar for drawing & 2 & Training and increas visibility of tool bar\\
+    \hline
+    Projection, even though it works for video it does not for the other evidence elements & 3 & General restriction imposed by iPad. alternative Windows tablet may offer more flexability.\\
+    \hline
+\end{tabular}
+\end{table}
+\end{center}
 
+%Document Manipulation Table==============================================================================
+\begin{center}
+\begin{table}[htbp]
+\label{tab:Issues_Document_Manipulation}
+  \centering
+  \caption{Document Manipulation}
+    \begin{tabular}{|p{0.40\textwidth}|c|p{0.40\textwidth}|}
+    \hline
+    \rowcolor{lightgrey}\multicolumn{3}{|l|}{Document manipulation} \\
+    \hline
+    \textbf{Areas and Issues of Concern} & \textbf{Sev 0-4} & \textbf{Suggested Solution}\\
+    \hline
+    Highlighting not bright enough. & 2 & Redesign to offer stronger highlighting tool\\
+    \hline
+    Saved edited document destination is not consistent. & 4 & Redesign with consistant save destination.\\
+    \hline
+   Saved edited documents not saved in their entirity. Only currently visible page is saved. & 5 & Redesign with complete document saving.\\
+   \hline
+   Functional icons confusing, eg. ``Search'' is represented as a magnifying glass. & 2 & Redesign with icins offering strong affordance.\\
+   \hline
+\end{tabular}
+\end{table}
+\end{center}
+
+%File Management Table==============================================
+\begin{center}
+\begin{table}[htbp]
+\label{tab:Issues_File_Management}
+  \centering
+  \caption{File Management}
+    \begin{tabular}{|p{0.40\textwidth}|c|p{0.40\textwidth}|}
+    \hline
+    \rowcolor{lightgrey}\multicolumn{3}{|l|}{File Management} \\
+    \hline
+    \textbf{Areas and Issues of Concern} & \textbf{Sev 0-4} & \textbf{Suggested Solution}\\
+    \hline
+    Inconsistant termanology, eg. Cases / Files used interchangeably. & 2 & Redevelop with consistant terminology\\
+    \hline
+    Improve ``Search'' option, difficult to find evidence files, inconsistant destinations. & 4 & Redesign with coherent file management order, with Search functionality consistant to it. Windows tablet option offers stronger alternative.\\
+    \hline
+    Offer more warnings with delete command. & 4 & Redesign with more warnings, and offer a recovery option to retreive deleted files.\\
+   \hline
+   Difficult to add exhibits. & 1 & Training required.\\
+   \hline
+   No levels of ``undo'', just the one step back function. & 4 & Redesign to offer incremental undo functionality.\\
+   \hline
+   File icon size does not allow larger folders to be properly displayed. & 2 & Redesign with smaller file icons, possible thumbnails for expansion if required.\\
+   \hline
+   Files are displayed in order of creation. & 2 & Redesign for files to be listed according to a user preference.\\
+   \hline
+   
+\end{tabular}
+\end{table}
+\end{center}
 \subsection{Analysis and Implications}
 %lead to second study: - gap identificaton
+Several areas of great concern were identified in this study. The sensitivity of scrolling, which often led to the system crashingis of primary concern. System crashes would result in unnessary delays in trials, and is viewed as a major hurdle for the adoption of any system for evidence presentation.
+
+The level of sensativity when scrolling often left users unable to adequately navigate to a desired location within a document. Users were observed giving up their attempt to locate a particular passage within a document, resulting in the value of that particular peice of evidence being lost. This could potentially lead to a mis-carriage of justice, or appeal of a conviction.
+
+Save functionality issues were also rated as a critial issue. Currently, when an edited document is saved the system takes a ``screenshot'' of the page currently displayed and saves it as a .jpg image file. If multiple edits have been made in a document the application of this functionality results in multiple .jpg files being saves, making later review difficult, confusing, and frustrating. The need for documents to be modified, annotated or embellished by the wittness, judge, barrisetrs, or members of the jury is clear, so the inclusion of PDF editing functionality that includes the ability to save the edited document in it's entirety as a PDF document is seen as critical. Inclusion of this functionality would greatly enhance any evidence presentation system, both in it opperations in presenting the evidence to the court, and also during jury deliberations, allowing for easier review of presented evidence along with any annotations made to the document during presentation. Participants also noted the the security of these edited documents is paramount. While the evidence is presented to all members of the court, any private edits or annotations made by a jury member or judge must be secured against others viewing it. If others were able to view these ``private'' annotations it would likely lead to a mistrial, or constitute grounds for an appeal of conviction.
+
+Undo functionality was also an area of significant concern, although not critical. Accidental deletion of evidence files during a trial, while not being grounds for a mistrial, would lead to significant delays while the deleted files are reloaded. Including incremental undo functionality would alleviate this issue. Delete functionality should also include user validation to minimise accidental file deletion.
+
+The remaining identified issues are considered worth noting, but do not necessitate urgent attention. 
+
 
 
 
@@ -130,7 +263,7 @@ Participants were less impressed with the cross Case management functionality, w
 % Study 2=====================================================================================
 \section{Study 2\label{Hardware:Study 2}}
 
-
+\citep{Lederer1998}
 
 
 
